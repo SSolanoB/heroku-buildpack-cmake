@@ -1,7 +1,7 @@
 #!/bin/sh
 # bin/detect BUILD_DIR
 
-echo $(which cmake)
-#! which cmake >/dev/null && echo "CMake"
-#echo "CMAKEEEEEEEEE"
-exit 0
+
+! which cmake >/dev/null && echo "CMake"
+#echo $(which cmake)
+#exit 0
