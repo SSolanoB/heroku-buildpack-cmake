@@ -2,6 +2,6 @@
 # bin/detect BUILD_DIR
 
 
-! which cmake >/dev/null && echo "CMake"
-#echo $(which cmake)
-#exit 0
+#! which cmake >/dev/null && echo "CMake"
+echo $(which cmake)
+exit 0
