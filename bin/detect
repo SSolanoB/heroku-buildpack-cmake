@@ -3,5 +3,5 @@
 
 
 #! which cmake >/dev/null && echo "CMake"
-echo $(which cmake)
+echo "Cmake-H"
 exit 0
